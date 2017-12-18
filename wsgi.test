@@ -1,0 +1,7 @@
+CONFIG = {
+    'working_dir': '/home/ubuntu/test',
+    'args': (
+        '--bind=0.0.0.0:5000',
+        'wsgitest',
+    ),
+}
